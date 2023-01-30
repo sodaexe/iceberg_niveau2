@@ -1,32 +1,6 @@
-/* #test-container {
-    height: 500px;
-}
-#div1 {
-    position: relative;
-    background-color: blue;
-    width: 50px;
-    height: 50px;
-}
-#test-sun {
-    position: absolute;
-    background-color: yellow;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    top: 20px;
-}
-#div2 {
-    position: relative;
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    margin-top: -25px;
-} */
-
-
 body {
     margin: 0;
-    /* background-color: #4BCEEC; */
+    background-color: #30A9D8;
 }
 #sun {
     position: absolute;
@@ -48,6 +22,7 @@ body {
 #profondeurs {
     position: relative;
     background-color: #4BCEEC;
+    /* border: 1px solid red; */
 }
 #iceberg {
     position: absolute;
@@ -74,10 +49,44 @@ body {
 }
 #sea_layer2 {
     width: 100vw;
-    height: 30vw;
+    height: 10vw;
     background-color: #4BCEEC;
     top: 90vh;
 }
-#sea_layer3 {
-    border: 2px solid orange;
+
+svg {
+    position: absolute;
+    top: 65vh;
+    left: 25vw;
 }
+
+
+.fishes {
+    position: absolute;
+    top: 60vh;
+    left: 15vw;
+}
+
+.jellyfish {
+    position: absolute;
+    top: 130vh;
+    left: 40vw;
+}
+
+#rocher1 {
+    position: absolute;
+    top: 70vh;
+    left: 0;
+}
+
+#rocher2 {
+    position: absolute;
+    top: 70vh;
+    right: 0;
+}
+/* 
+#rocher3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
