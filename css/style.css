@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #4BCEEC;
+}
+#sun {
+    position: absolute;
+
+    height: 10vw;
+    width: 10vw;
+    background-color: #fbe8a6;
+    border-radius: 100%;
+
+    top: calc(5vw + 5vh);
+    left: 10vw;
+}
+#surface {
+    position: relative;
+    height: 90vh;
+    background-color: #B7F9F7;
+    overflow: visible;
+}
+#profondeurs {
+    background-color: #4BCEEC;
+}
+#iceberg {
+    position: absolute;
+    width: 30%;
+
+    bottom: -26vw;
+    right: 15vw;
+    z-index: 10;
+}
+#shadow {
+    position: absolute;
+    width: 16vw;
+
+    top: 90vh;
+    left: 7vw;
+    z-index: 9;
+}
+#sea_layer1 {
+    position: absolute;
+
+    width: 100vw;
+    height: 5vw;
+    background-color: #59DBF1;
+
+    top: 90vh;
+    z-index: 5;
+}
+#sea_layer2 {
+    position: absolute;
+
+    width: 100vw;
+    height: 30vw;
+    background-color: #4BCEEC;
+    top: 90vh;
+    z-index: 4;
+}

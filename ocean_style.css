@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Elements de décor */
+.outside {
+  position: relative;
+  height: 80vh;
+
+  background-color: #eed7a4;
+  overflow: visible;
+}
+
+#sun {
+  position: absolute;
+  width: calc(5vw + 5vh);
+  height: calc(5vw + 5vh);
+  
+  top: calc(5vw + 5vh);
+  left: 10vw;
+
+  background: white;
+  border-radius: 100%;
+  transform-style: flat;
+  z-index: 0;
+}
+
+#reflect {
+  position: absolute;
+  width: 15vw;
+
+  top: 0;
+  left: 7vw;
+}
+
+#island-behind {
+  position: absolute;
+  width: 40%;
+
+  bottom: -1vw;
+  right: 0;
+}
+
+#island-front {
+  position: absolute;
+  width: 60%;
+
+  right: 0;
+  bottom: -8vw;
+  
+  z-index: 5;
+}
+
+.sea {
+  position: relative;
+
+  height: 170vw;
+  overflow: hidden;
+
+  background: #80a7c5;
+}
+
+#sea-bg-top {
+  position: absolute;
+  width: 100%;
+
+  right: 0;
+  bottom: 0;
+}
+
+#sea-bg-bottom {
+  position: absolute;
+  width: 100%;
+
+  right: 0;
+  bottom: 0;
+}
+
+#left-border {
+  position: absolute;
+  width: 20%;
+
+  left: 0;
+  top: 40vh;
+}
+
+#right-border {
+  position: absolute;
+  width: 20%;
+
+  right: 0;
+  top: 40vh;
+}
+
+#bottom-border {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+/* Faune et flore marine */
+
+#fish {
+  width: 13vw;
+  position: absolute;
+  left: 10vw;
+  top: 15vw;
+}
+
+#medusa {
+  width: 8vw;
+  position: absolute;
+  left: 40vw;
+  top: 50vw;
+}
+
