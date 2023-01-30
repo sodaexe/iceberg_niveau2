@@ -1,25 +1,3 @@
-// gsap.to("#sun", {
-//     duration: 5,
-//     x: "50vw",
-//     y: "100vh",
-//     scale: 2,
-//     repeat: -1,
-//     backgroundColor: "#ff8e47"
-// })
-
-// gsap.to("#surface", {
-//   duration: 5,
-//   backgroundColor: "#29295d",
-//   repeat: -1
-// })
-
-// gsap.to("#shadow", {
-//   duration: 5,
-//   x: "50vw",
-//   opacity: 0,
-//   repeat: -1,
-// })
-
 gsap.to("#sun", {
   // duration: 5,
   x: "40vw",
